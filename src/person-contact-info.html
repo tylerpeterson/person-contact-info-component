@@ -2,10 +2,14 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
 <!-- Define your custom element -->
-<polymer-element name="person-contact-info">
+<polymer-element name="person-contact-info" attributes="name,phone"></p>"></p>">
     <template>
-        <h1>Full Name</h1>
-        <p>(555) 555-5555</p>
+        <style>
+            h1, p {margin: 0;  padding: 0; border: 0;  font-size: 100%;    font: inherit;  vertical-align: baseline;}
+            body {  line-height: 1;}
+        </style>
+        <h1>{{name}}</h1>
+        <p>{{phone}}</p>
     </template>
     <script>
         Polymer('person-contact-info', {
