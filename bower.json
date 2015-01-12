@@ -1,0 +1,19 @@
+{
+    "name": "person-contact-info-component",
+    "version": "0.0.0",
+    "description": "Show the name and contact information for one person.",
+    "license": "MIT",
+    "main": "dist/person-contact-info.html",
+    "keywords": [
+        "polymer",
+        "web-components"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#^0.5.1"
+    }
+}
