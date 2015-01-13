@@ -9,7 +9,7 @@
             body {  line-height: 1;}
         </style>
         <h1>{{name}}</h1>
-        <p>{{phone}}</p>
+        <p><a href="tel://{{phone}}">{{phone}}</a></p>
     </template>
     <script>
         Polymer('person-contact-info', {
